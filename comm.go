@@ -10,11 +10,11 @@ import (
 	pool "github.com/libp2p/go-buffer-pool"
 	"github.com/multiformats/go-varint"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-msgio"
+	"github.com/mikelsr/go-libp2p/core/network"
+	"github.com/mikelsr/go-libp2p/core/peer"
 
-	pb "github.com/libp2p/go-libp2p-pubsub/pb"
+	pb "github.com/mikelsr/go-libp2p-pubsub/pb"
 )
 
 // get the initial RPC containing all of our subscriptions to send to new peers

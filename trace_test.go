@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/libp2p/go-libp2p-pubsub/pb"
+	pb "github.com/mikelsr/go-libp2p-pubsub/pb"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
+	"github.com/mikelsr/go-libp2p/core/network"
+	"github.com/mikelsr/go-libp2p/core/peer"
+	"github.com/mikelsr/go-libp2p/core/peerstore"
 
-	bhost "github.com/libp2p/go-libp2p/p2p/host/blank"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	bhost "github.com/mikelsr/go-libp2p/p2p/host/blank"
+	swarmt "github.com/mikelsr/go-libp2p/p2p/net/swarm/testing"
 
 	"github.com/libp2p/go-msgio/protoio"
 )

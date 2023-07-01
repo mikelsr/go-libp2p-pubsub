@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/libp2p/go-libp2p-pubsub/pb"
 	tnet "github.com/libp2p/go-libp2p-testing/net"
-	"github.com/libp2p/go-libp2p/core/peer"
+	pb "github.com/mikelsr/go-libp2p-pubsub/pb"
+	"github.com/mikelsr/go-libp2p/core/peer"
 )
 
 func getTopics(psubs []*PubSub, topicID string, opts ...TopicOpt) []*Topic {
