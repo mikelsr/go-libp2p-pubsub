@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	tnet "github.com/libp2p/go-libp2p-testing/net"
 	pb "github.com/mikelsr/go-libp2p-pubsub/pb"
+	tnet "github.com/mikelsr/go-libp2p-testing/net"
 	"github.com/mikelsr/go-libp2p/core/peer"
 )
 
